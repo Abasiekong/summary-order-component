@@ -18,7 +18,6 @@ This is a solution to the [Order summary card challenge on Frontend Mentor](http
 ## Overview
 
 ### The challenge
-https://abasiekong.github.io/summary-order-component/
 Users should be able to:
 
 - See hover states for interactive elements
@@ -29,8 +28,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [solution URL](https://www.frontendmentor.io/solutions/order-summary-component-HJBmEAtBc)
-- Live Site URL: [live site URL](https://abasiekong.github.io/summary-order-component/)
+- Solution URL: https://www.frontendmentor.io/solutions/order-summary-component-HJBmEAtBc
+- Live Site URL: https://abasiekong.github.io/summary-order-component/
 
 ## My process
 
