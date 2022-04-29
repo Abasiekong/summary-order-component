@@ -467,3 +467,205 @@ Ensure the default browser behavior of the `hidden` attribute.
   --tw-backdrop-saturate:  ;
   --tw-backdrop-sepia:  ;
 }
+
+.container {
+  width: 100%;
+}
+
+@media (min-width: 640px) {
+  .container {
+    max-width: 640px;
+  }
+}
+
+@media (min-width: 768px) {
+  .container {
+    max-width: 768px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .container {
+    max-width: 1024px;
+  }
+}
+
+@media (min-width: 1280px) {
+  .container {
+    max-width: 1280px;
+  }
+}
+
+@media (min-width: 1536px) {
+  .container {
+    max-width: 1536px;
+  }
+}
+
+body {
+  background-color: #e0e8ff;
+  font-family: 'Red Hat Display', sans-serif;
+  font-size: 16px;
+}
+
+@media screen and (min-width: 280px) {
+  body {
+    background-image: url("/images/pattern-background-mobile.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  body {
+    background-image: url("/images/pattern-background-desktop.svg");
+    background-size: auto;
+  }
+}
+
+.mx-auto {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.my-9 {
+  margin-top: 2.25rem;
+  margin-bottom: 2.25rem;
+}
+
+.my-\[1\.75em\] {
+  margin-top: 1.75em;
+  margin-bottom: 1.75em;
+}
+
+.mb-4 {
+  margin-bottom: 1rem;
+}
+
+.mb-\[1\.75em\] {
+  margin-bottom: 1.75em;
+}
+
+.mb-5 {
+  margin-bottom: 1.25rem;
+}
+
+.block {
+  display: block;
+}
+
+.flex {
+  display: flex;
+}
+
+.h-auto {
+  height: auto;
+}
+
+.w-\[28\.125em\] {
+  width: 28.125em;
+}
+
+.w-\[22\.1875em\] {
+  width: 22.1875em;
+}
+
+.w-\[18\.125em\] {
+  width: 18.125em;
+}
+
+.flex-col {
+  flex-direction: column;
+}
+
+.items-center {
+  align-items: center;
+}
+
+.justify-between {
+  justify-content: space-between;
+}
+
+.rounded-2xl {
+  border-radius: 1rem;
+}
+
+.rounded-\[0\.3125em\] {
+  border-radius: 0.3125em;
+}
+
+.rounded-t-2xl {
+  border-top-left-radius: 1rem;
+  border-top-right-radius: 1rem;
+}
+
+.rounded-b-2xl {
+  border-bottom-right-radius: 1rem;
+  border-bottom-left-radius: 1rem;
+}
+
+.bg-white {
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 255 255 / var(--tw-bg-opacity));
+}
+
+.bg-\[\#f5f7ff\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(245 247 255 / var(--tw-bg-opacity));
+}
+
+.bg-\[\#3829e0\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(56 41 224 / var(--tw-bg-opacity));
+}
+
+.p-5 {
+  padding: 1.25rem;
+}
+
+.p-3 {
+  padding: 0.75rem;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-\[1\.75rem\] {
+  font-size: 1.75rem;
+}
+
+.font-bold {
+  font-weight: 700;
+}
+
+.text-\[\#1f2f56\] {
+  --tw-text-opacity: 1;
+  color: rgb(31 47 86 / var(--tw-text-opacity));
+}
+
+.text-\[\#7280a7\] {
+  --tw-text-opacity: 1;
+  color: rgb(114 128 167 / var(--tw-text-opacity));
+}
+
+.text-\[\#3829e0\] {
+  --tw-text-opacity: 1;
+  color: rgb(56 41 224 / var(--tw-text-opacity));
+}
+
+.text-white {
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+
+.underline {
+  -webkit-text-decoration-line: underline;
+          text-decoration-line: underline;
+}
+
+.shadow-\[0_20px_12px_5px_\#e0e8ff\] {
+  --tw-shadow: 0 20px 12px 5px #e0e8ff;
+  --tw-shadow-colored: 0 20px 12px 5px var(--tw-shadow-color);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+}
