@@ -472,6 +472,7 @@ body {
   background-color: #e0e8ff;
   font-family: 'Red Hat Display', sans-serif;
   font-size: 16px;
+  outline: 0;
 }
 
 @media screen and (min-width: 280px) {
@@ -492,11 +493,6 @@ body {
 .mx-auto {
   margin-left: auto;
   margin-right: auto;
-}
-
-.my-7 {
-  margin-top: 1.75rem;
-  margin-bottom: 1.75rem;
 }
 
 .my-8 {
@@ -581,24 +577,16 @@ body {
   text-align: center;
 }
 
-.text-\[1\.75rem\] {
-  font-size: 1.75rem;
-}
-
-.text-\[1\.375rem\] {
-  font-size: 1.375rem;
-}
-
 .text-\[1\.5rem\] {
   font-size: 1.5rem;
 }
 
-.font-bold {
-  font-weight: 700;
-}
-
 .font-black {
   font-weight: 900;
+}
+
+.font-bold {
+  font-weight: 700;
 }
 
 .font-medium {
@@ -634,6 +622,31 @@ body {
   --tw-shadow: 0 15px 8px 4px #e0e8ff;
   --tw-shadow-colored: 0 15px 8px 4px var(--tw-shadow-color);
   box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+}
+
+.active\:bg-desaturated-blue:active {
+  --tw-bg-opacity: 1;
+  background-color: rgb(114 128 167 / var(--tw-bg-opacity));
+}
+
+.active\:text-desaturated-blue:active {
+  --tw-text-opacity: 1;
+  color: rgb(114 128 167 / var(--tw-text-opacity));
+}
+
+.active\:text-dark-blue:active {
+  --tw-text-opacity: 1;
+  color: rgb(31 47 86 / var(--tw-text-opacity));
+}
+
+.active\:text-pale-blue:active {
+  --tw-text-opacity: 1;
+  color: rgb(224 232 255 / var(--tw-text-opacity));
+}
+
+.active\:no-underline:active {
+  -webkit-text-decoration-line: none;
+          text-decoration-line: none;
 }
 
 @media (min-width: 1024px) {

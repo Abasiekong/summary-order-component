@@ -5,6 +5,7 @@ body {
     background-color: #e0e8ff;
     font-family: 'Red Hat Display', sans-serif;
     font-size: 16px;
+    outline: 0;
 }
 
 @media screen and (min-width: 280px) {
