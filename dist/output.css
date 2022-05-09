@@ -475,21 +475,6 @@ body {
   outline: 0;
 }
 
-@media screen and (min-width: 280px) {
-  body {
-    background-image: url("/images/pattern-background-mobile.svg");
-    background-repeat: no-repeat;
-    background-size: contain;
-  }
-}
-
-@media screen and (min-width: 768px) {
-  body {
-    background-image: url("/images/pattern-background-desktop.svg");
-    background-size: auto;
-  }
-}
-
 .mx-auto {
   margin-left: auto;
   margin-right: auto;
@@ -504,8 +489,8 @@ body {
   margin-bottom: 1rem;
 }
 
-.mb-5 {
-  margin-bottom: 1.25rem;
+.mb-6 {
+  margin-bottom: 1.5rem;
 }
 
 .ml-4 {
@@ -520,8 +505,12 @@ body {
   margin-bottom: 0.75rem;
 }
 
-.mb-6 {
-  margin-bottom: 1.5rem;
+.ml-3 {
+  margin-left: 0.75rem;
+}
+
+.ml-\[0\.625em\] {
+  margin-left: 0.625em;
 }
 
 .block {
@@ -573,6 +562,18 @@ body {
   background-color: rgb(56 41 224 / var(--tw-bg-opacity));
 }
 
+.bg-\[url\(\'\/images\/pattern-background-mobile\.svg\'\)\] {
+  background-image: url('/images/pattern-background-mobile.svg');
+}
+
+.bg-auto {
+  background-size: auto;
+}
+
+.bg-no-repeat {
+  background-repeat: no-repeat;
+}
+
 .p-7 {
   padding: 1.75rem;
 }
@@ -581,26 +582,12 @@ body {
   padding: 0.75rem;
 }
 
-.p-8 {
-  padding: 2rem;
-}
-
-.py-8 {
-  padding-top: 2rem;
-  padding-bottom: 2rem;
-}
-
-.py-7 {
-  padding-top: 1.75rem;
-  padding-bottom: 1.75rem;
-}
-
 .text-center {
   text-align: center;
 }
 
-.text-\[1\.5rem\] {
-  font-size: 1.5rem;
+.text-\[1\.75rem\] {
+  font-size: 1.75rem;
 }
 
 .font-black {
@@ -661,6 +648,12 @@ body {
           text-decoration-line: none;
 }
 
+@media (min-width: 768px) {
+  .md\:bg-\[url\(\'\/images\/pattern-background-desktop\.svg\'\)\] {
+    background-image: url('/images/pattern-background-desktop.svg');
+  }
+}
+
 @media (min-width: 1024px) {
   .lg\:w-450 {
     width: 28.125em;
@@ -668,10 +661,5 @@ body {
 
   .lg\:w-355 {
     width: 22.1875em;
-  }
-
-  .lg\:py-7 {
-    padding-top: 1.75rem;
-    padding-bottom: 1.75rem;
   }
 }
