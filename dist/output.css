@@ -475,14 +475,28 @@ body {
   outline: 0;
 }
 
+@media screen and (min-width: 280px) {
+  body {
+    background-image: url("../images/pattern-background-mobile.svg");
+    background-repeat: no-repeat;
+    background-size: auto;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  body {
+    background-image: url("../images/pattern-background-desktop.svg");
+  }
+}
+
 .mx-auto {
   margin-left: auto;
   margin-right: auto;
 }
 
-.my-8 {
-  margin-top: 2rem;
-  margin-bottom: 2rem;
+.my-10 {
+  margin-top: 2.5rem;
+  margin-bottom: 2.5rem;
 }
 
 .mb-4 {
@@ -552,22 +566,6 @@ body {
 .bg-bright-blue {
   --tw-bg-opacity: 1;
   background-color: rgb(56 41 224 / var(--tw-bg-opacity));
-}
-
-.bg-\[url\(\'\.\/images\/pattern-background-mobile\.svg\'\)\] {
-  background-image: url('./images/pattern-background-mobile.svg');
-}
-
-.bg-\[url\(\'\/images\/pattern-background-mobile\.svg\'\)\] {
-  background-image: url('/images/pattern-background-mobile.svg');
-}
-
-.bg-auto {
-  background-size: auto;
-}
-
-.bg-no-repeat {
-  background-repeat: no-repeat;
 }
 
 .p-7 {
@@ -642,12 +640,6 @@ body {
 .active\:no-underline:active {
   -webkit-text-decoration-line: none;
           text-decoration-line: none;
-}
-
-@media (min-width: 768px) {
-  .md\:bg-\[url\(\'\/images\/pattern-background-desktop\.svg\'\)\] {
-    background-image: url('/images/pattern-background-desktop.svg');
-  }
 }
 
 @media (min-width: 1024px) {
