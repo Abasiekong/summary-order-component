@@ -479,7 +479,7 @@ body {
   body {
     background-image: url("../images/pattern-background-mobile.svg");
     background-repeat: no-repeat;
-    background-size: auto;
+    background-size: contain;
   }
 }
 
@@ -527,12 +527,24 @@ body {
   display: flex;
 }
 
+.h-screen {
+  height: 100vh;
+}
+
 .w-330 {
   width: 20.625em;
 }
 
 .w-full {
   width: 100%;
+}
+
+.w-screen {
+  width: 100vw;
+}
+
+.place-items-center {
+  place-items: center;
 }
 
 .items-center {
@@ -632,9 +644,19 @@ body {
   background-color: rgb(114 128 167 / var(--tw-bg-opacity));
 }
 
+.active\:bg-\[\#756af1\]:active {
+  --tw-bg-opacity: 1;
+  background-color: rgb(117 106 241 / var(--tw-bg-opacity));
+}
+
 .active\:text-dark-blue:active {
   --tw-text-opacity: 1;
   color: rgb(31 47 86 / var(--tw-text-opacity));
+}
+
+.active\:text-\[\#756af1\]:active {
+  --tw-text-opacity: 1;
+  color: rgb(117 106 241 / var(--tw-text-opacity));
 }
 
 .active\:no-underline:active {
